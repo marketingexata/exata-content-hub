@@ -7,3 +7,11 @@
 .page-heading p,.breadcrumb,.stat-top,.section-title p,.results-note,.modal-subtitle,.field label,.guide-section,.history-item-desc,.history-item-time,.calendar-bottom,.filter-caption,.filter-selects label{color:#748399}.stat-foot,.stat-foot b,.footer,.cell-sub,.table-title small,.content-table-meta{color:#8290a3}.field small{color:#7f8fa2}.event-meta{font-size:10px}.event-platform{font-size:9px;color:#73848b}.event-title{font-size:12px}.event-foot{font-size:9px;color:#7e8d97}.workflow-banner p{color:#6d857a}.history-item-heading strong{font-size:14px}.history-item-desc{font-size:12px}.history-item-time{font-size:11px}.iui-root .iui-field>small,.iui-root .iui-native,.iui-root .iui-screenshot-tips,.iui-root .iui-context-field small{color:#7f8d7b}.iui-root .iui-help-note p{color:#7b8e73}.iui-root .iui-upload-intro>p{color:#7d9074}.iui-root .iui-review small{color:#7d9171}.iui-root .iui-field>label{color:#5d7354}.iui-root .iui-context-field label{color:#5d7354}
 @media(max-width:700px){.event-title{font-size:12px}.event-meta{font-size:10px}.history-item-heading strong{font-size:12px}.history-item-desc{font-size:11px}.history-item-time{font-size:10px}.iui-root .iui-field>small{font-size:10px}.page-heading p{font-size:12px}}
 .sidebar{overflow-y:auto;scrollbar-width:thin}.sidebar>.brand,.sidebar>.workspace,.sidebar>.nav-label,.sidebar>nav,.sidebar>.sidebar-bottom{flex-shrink:0}
+.brand-image {
+  display: block;
+  width: 100%;
+  max-width: 175px;
+  height: 52px;
+  object-fit: contain;
+  object-position: left center;
+}
