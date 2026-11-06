@@ -1,0 +1,25 @@
+/* Shared draft status for the content and insight editors. */
+[data-draft-status] { margin: 0 0 20px; }
+.draft-notice { display: flex; align-items: flex-start; gap: 11px; padding: 13px 14px; border: 1px solid var(--line, #dce3eb); border-radius: 12px; background: var(--mint, #eff6ff); color: var(--ink, #172a3c); font-size: 12px; line-height: 1.5; }
+.draft-notice-icon { display: inline-flex; align-items: center; justify-content: center; flex: 0 0 25px; width: 25px; height: 25px; border-radius: 8px; background: var(--paper, #fff); color: var(--green, #2563eb); font-size: 17px; font-weight: 700; line-height: 1; }
+.draft-notice-copy { min-width: 0; flex: 1; }
+.draft-notice-copy > strong { display: block; font-size: 12px; font-weight: 700; }
+.draft-notice-copy p { margin: 2px 0 1px; font-size: 12px; line-height: 1.5; }
+.draft-notice-copy small { font-size: 11px; line-height: 1.5; color: var(--muted, #657589); }
+.draft-notice-copy strong small { font-weight: 500; white-space: nowrap; }
+.draft-notice button { flex-shrink: 0; width: auto; min-height: 30px; padding: 5px 9px; border: 1px solid var(--line, #dce3eb); border-radius: 7px; background: var(--paper, #fff); color: var(--ink, #172a3c); font: inherit; font-size: 11px; font-weight: 600; line-height: 1.4; cursor: pointer; }
+.draft-notice button:hover { border-color: var(--green, #2563eb); color: var(--green, #2563eb); }
+.draft-notice button:focus-visible { outline: 2px solid var(--green, #2563eb); outline-offset: 3px; }
+.draft-notice.is-error { border-color: #f1c8ad; background: #fff7ed; }
+.draft-notice.is-error .draft-notice-icon { color: #9a4b16; }
+.draft-discard-confirm { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px 14px; margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--line, #dce3eb); }
+.draft-discard-confirm > span { font-weight: 600; }
+.draft-discard-confirm > div { display: flex; gap: 7px; }
+.draft-notice button.draft-confirm-delete { color: #aa3434; border-color: #edc4c4; }
+.draft-notice button.draft-confirm-delete:hover { background: #fff1f1; border-color: #aa3434; color: #8b2929; }
+@media (max-width: 560px) {
+  .draft-notice { flex-wrap: wrap; gap: 8px; padding: 12px; }
+  .draft-notice-copy { flex-basis: calc(100% - 36px); }
+  .draft-notice > .draft-discard { margin-left: 33px; }
+  .draft-discard-confirm { align-items: flex-start; }
+}
